@@ -59,7 +59,7 @@ function megaFriend(friendArray) {
     }
     for (var i = 0; i < friendArray.length; i++) {
         if (friendArray[i].length>=maxLength ) {
-            maxLength = friendArray[i].length
+            maxLength = friendArray[i].length;
             biggestName = friendArray[i];
         }
     }
